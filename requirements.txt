@@ -1,0 +1,7 @@
+tensorflow
+fastapi
+unicorn
+gunicorn
+numpy
+keras-segmentation
+pillow
