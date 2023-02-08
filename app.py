@@ -25,7 +25,7 @@ def jaccard_loss(y_true, y_pred):
     return 1-jaccard_metric(y_true, y_pred)
 
 BACKBONE = 'resnet34'
-
+print(BACKBONE)
 class Npencode(JSONEncoder):
     def default(self, o ):
         if isinstance(o,np.ndarray):
